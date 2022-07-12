@@ -1,0 +1,96 @@
+OOPS: = Object Oriented Paradigm, is just a way of writing
+a code a methodology a set of rules that we follow when we write code.
+in this methodology we create classes and objects of those classes to
+represent everything from real life.
+Famouse paradigms:
+--1: functional programming
+--2: procedural programming
+
+Four pillars of OOPS:
+1: inheritance
+2: polymorphism
+3: abstraction
+4: encapsulation
+
+Some benefits of OOPS:
+--1: Code re-usability
+--2: Cleaner codes
+--3: more flexibility
+--4: less code.
+--5: enforcing rules and hiding complexity and only focusing on the ideas.
+--6: Secure code.
+
+1: Inheritance:
+ ->This is a mechanism in java through which a class can acquire the properties
+ and methods of another classes.
+
+Why should we use inheritance:
+ ->If a piece of code is already present in a class instead of rewriting it
+ or copying it. We can extend our class from that class, and we will get
+ all the non-private methods and fields that class. It can save a lot of
+ time. It also good for performance.
+
+ Disadvantage of Inheritance:
+  ->We get the unwanted code as well when we inherit from a class.
+  ->Classes are tightly coupled which means if we change something in the parent
+  class if affects all the child classes.
+
+  How can we use inheritance:
+  ->We use the extends keyword to inherit the classes.
+
+  Rules:
+  ->Inheritance is one way from parent to child only.
+  ->In java, we cant inherit from multiple classes.
+  ->Final classes cant be inherited. Classes which are decleared with FINAL keyword.
+  ->Private members(fields and methods) are not inherited.
+  ->Constructors are not inherited but we can call them using super().
+  ->Child classes must provide a matching constructor.
+
+  Types of inheritance:
+  ->Single inheritance
+  ->Multilevel inheritance
+  ->Hierarchical inheritance
+  ->Multiple inheritance (this one is not supported in JAVA)
+
+  Single inheritance:
+  ->Only one parent and one child class.
+
+  Multilevel Inheritance:
+  ->When we have a parent and child class and one or many intermediate classes
+  we call it multilevel inheritance.
+
+  Hierarchical Inheritance:
+  ->When we have a single parent class and multiple direct child classes it is
+  called hierarchical inheritance.
+  -------------------------------------------------
+  Super keyword:
+  ->Super is a keyword that we use to refer to the parent class fields methods
+  or constructors.
+
+  Why should we use Super Keyword:
+  ->If we have same name fields inside the parent class and child class we can
+  use the super keyword to distinguish these fields. Its not that useful in industry.
+  ->We can use the super () to call the constructor of the parent class as they
+  are not inherited.
+  ->If we have same name methods inside the parent and the child class, we can
+  use super keyword to call the method from the parent class.
+  =================================================================
+
+  Method Overloading:
+  ->Whenever same name method exist in a class with different parameters we
+  call it method overloading.
+
+  Why we should use method overloading:
+  ->it helps us write more cleaner and more readable code and also provides the
+  flexibility to have same name methods in a class.
+
+  How to create an overloading method:
+  ->Create same method name but make sure this differs in the number of parameters
+  or in types of parameters or in sequence of parameters.
+
+  Rules:
+  ->Method name should be same but parameters should be different.
+  ->By just changing the return type we cant overload a method.
+  ->We cant overload by just changing he access modifiers (private, protected,
+   public) and non-access modifiers (final, static, and abstract).
+   ->We can also overload constructor in the same manner

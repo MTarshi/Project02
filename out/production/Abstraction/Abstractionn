@@ -1,0 +1,26 @@
+What is Abstraction:
+->Abstraction is the process of hiding implementation details and only showing
+the functionality.
+
+Why we should use abstraction:
+->It reduces the complexity by separating the ideas from implementations.
+->We can also enforce rules on other classes.
+
+How can we use abstraction:
+->We can use abstraction in our code with the help of abstract classes and interfaces.
+->We create abstract methods with only the header and mark the class as abstract
+now every class that will be inheriting from this class will either implement
+those methods or mark the child class abstract as well.
+
+Rules:
+->Abstract methods can have a body.
+->As soon as we have one abstract method in a class that class must be decleared
+as abstract.
+->Once a class inherit from an abstract class that class must implement the
+abstract methods or it should be mark as abstract.
+->We can have normal methods with body and abstract methods inside a class.
+->We cant create the object of abstract classes.
+->Abstract classes cant be declared final classes.
+->We can have everything inside an abstract class that we can have in a normal class.
+the only thing that differs is we cant create the object of that class.
+->

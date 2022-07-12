@@ -1,0 +1,7 @@
+What is Encapsulation in Java:
+->Is a mechanism that provides us security. If we use encapsulation we can have
+more security. Its the fourth pillar of Object Oriented Programing.
+
+How we should use encapsulation:
+->Make your variables as private.
+->Create setter and getter methods to read and write these fields.

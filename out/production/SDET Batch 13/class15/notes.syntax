@@ -1,0 +1,37 @@
+What is a method?
+Method in Java is a block of code(group of java statements).
+it defines the behavior of a class.
+Why we should use method?
+It helps us remove the duplicate code from our application. we just crate a
+method and every time we need that logic we just call the method that contains
+the logic. It also allows to write the code in the form of modules
+which makes the development of large applications easier.
+How to use methods ?
+1. we create the method inside a class.
+2. we create the object of that class.
+3. we call the method by writing the name of the object and a dot and the name
+of the method.
+For example:
+
+class Calculator{
+void add(int x, int y) {
+
+}
+public static void main(String[]args){
+Calculator calculator = new Calculator();
+
+calculator.add(10,20);
+-->if we execute it, it will give us the sum of 10+20 =30.
+}
+}
+Rules: To create and use mthods:
+void add (int x, int y){
+System.out.println(x+y);
+}
+void is a return tyep and it is a must if you want to return a specific data
+write the name of that data type like for int we write int for string we
+write string and if we dont want to return anything we write void
+when we write a void we cant assign a method call to a variable.
+
+add=> next we write the name of the method which can be anything and it should
+follow the rules for giving a name to variables.

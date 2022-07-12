@@ -1,0 +1,23 @@
+What is interface:
+->Interface is a contract that is similar to a class but all the fields
+inside a class are public static final(constants) and all the methods
+by default are also public.
+
+Why we should learn about the interface:
+->We can implement abstraction using interfaces.
+->When classes are logically connected to each other and we want to have
+instance fields and implemented methods as well while doing abstraction,
+then we should go with abstract class.
+
+How can I create an interface:
+->We use interface keyword instead of a class and we can start creating
+abstract methods.
+
+Rules:
+->All the fields inside an interface are public static and final.
+->No instance fields means no constructor is required.
+->No instance method in an interface and all the methods by default are abstract.
+->When we implements the method from the interface we use extends keyword.
+->Multiple inheritance is supported by interfaces in Java.
+->An interface can extend another interface.
+->Variables in interfaces can be private.

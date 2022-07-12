@@ -1,0 +1,13 @@
+List:
+->List is the first interface that we will be discussing from the collections
+framework.
+->We can store duplicate data.
+->Insertion order is maintained.
+ArrayList:
+->Upside: Retrival(get operation) of elements is super fast.
+->Downside: Adding elements in the middle or start will be very expensive.
+
+LinkedList class:
+Upside: Whenever we have to insert the data randomly not at the last index
+we should be using linkedList.
+->Retrival is super, super slow if the list is big.

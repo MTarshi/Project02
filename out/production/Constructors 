@@ -1,0 +1,38 @@
+Constructors:
+    1. Constructors is a block of codes that is used to construct objects.
+    -->Why we should use a constructor:
+    2. Constructors help us initialize objects in cleaner and more readable way.
+    3. They are better than methods because they are called automatically when we create an object.
+    4. Most of the time fields are private and because of this reason we cant access them
+    outside of the class in which they are decleared and cant initialize them.
+    -->How to use a constructor:
+    --WE create the constructor by writing a block of code that has same name as class name.
+    --when we create the object of that class it is called automatically.
+    Rules:
+    --Constructor dont have return types not even void.
+    --Constructor should have same name as class name.
+    --Constructor can have access modifiers like private, public and protected.
+    --Constructors cant have non access modifiers like static final synchronized.
+    --Default constructors is provided by Java if we dont write one.
+    --When we create the object of a class then a constructor is called.
+      for example if the class name is dog: --> dog dog1=new dog();
+    --We can create multiple constructors to give the other users flexibility that they
+      dont have to provide all the values to all the instance fields when creating an object of out class.
+    --We can call the constructor of a class by using this keyword with paranthesis
+      like " this() "we can pass parameter and java will decide based on these parameters which constructor to call.
+
+      "this Keyword":
+      --When ever we have same name variables as instance variable and local variable, this keyword
+        can help us resolve the conflict between local and instance variable.
+      class Human{
+      String name = "Sleeping Zombi";
+
+      void printName(){
+      String name = "Wake up zombi"
+
+      System.out.println(name)
+      Out put is "wake up zombi" -->because Java select instance variable.
+      if we want to print sleeping zombi we do (System.out.println(this.name);
+      }
+      }
+

@@ -1,0 +1,23 @@
+Access Modifiers:
+Access modifiers are keywords in Java that helps us control the access of classes,
+variables, methods and other codes of block. There are four access levels in java private
+default(its not a keyword) protected and public. we have three keywords that define
+these access levels. 1: private 2: protected 3: public
+
+Private:
+When we use the private keyword with a method or field it is only accessible inside the clasee.
+it is the most restricted access modifiers.
+
+Default (its not a keyword):
+when we dont use any access modifiers keyword with a field or a method then default access is applied by java which means we can
+access this variable or method inside the same as well as in all the other
+classes which exists inside the same package.
+
+Protected:
+When we have protected access modifier we can access that method or variable inside the same class
+plus inside the other classes which are inside the same package + inside
+classes which are in different packages as well but they must have extends relationship with original class.
+
+public:
+When we use the public access modifiers we can use that field or method anywhere inside
+the same project. we can access them in the class + in the package +

@@ -1,0 +1,29 @@
+What is method overloading:
+
+--When same name method exists in a class but with different number of parameters or
+different type of parameters or different sequence of parameters it is called
+method overloading.
+
+Why we should use methodOverLoading?
+
+--1: make your code readable.
+--2: Makes the life of the end users easy they dont have to memorize many method names.
+--3: Give more flexibility for end user.
+
+How we can use methodOverLoading:
+--: we can have same name methods but we have to follow the below rules.
+--1: By passing different number of parameters.
+--2: we can change the data type of parameters.
+--3: We can also overload a method by changing the sequence of parameters.
+
+For example:
+class Calculator{
+int method(int num1, int num2){
+return num1+num2;
+}
+}
+
+Rules:
+--1:Method name should be same but parameters should be different.
+--2:We cant overload a method by just changing its return type.
+--3: We can also overload constructors by following the same rules.

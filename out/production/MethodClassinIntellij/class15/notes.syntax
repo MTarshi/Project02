@@ -1,0 +1,70 @@
+What is a method?
+Method in Java is a block of code(group of java statements).
+it defines the behavior of a class.
+Why we should use method?
+It helps us remove the duplicate code from our application. we just crate a
+method and every time we need that logic we just call the method that contains
+the logic. It also allows to write the code in the form of modules
+which makes the development of large applications easier.
+How to use methods ?
+1. we create the method inside a class.
+2. we create the object of that class.
+3. we call the method by writing the name of the object and a dot and the name
+of the method.
+For example:
+
+class Calculator{
+void add(int x, int y) {
+
+}
+public static void main(String[]args){
+Calculator calculator = new Calculator();
+
+calculator.add(10,20);
+-->if we execute it, it will give us the sum of 10+20 =30.
+}
+}
+Rules: To create and use mthods:
+void add (int x, int y){
+System.out.println(x+y);
+}
+void is a return tyep and it is a must if you want to return a specific data
+write the name of that data type like for int we write int for string we
+write string and if we dont want to return anything we write void
+when we write a void we cant assign a method call to a variable.
+
+add=> next we write the name of the method which can be anything and it should
+follow the rules for giving a name to variables.
+
+----------------------------------------------------------
+Types of variables in JAVA !
+There are three types of variables. 1: Local 2: Instance 3: Static
+Local: if a variable is inside a method or its part of its parameters or a loop or switch statement or if
+else condition, it is called a local variable.
+Instance:if a variable is inside the class but outside of any block of code like method
+loop switch statement if else condition it is called an instance method.
+Static: if an instance variable has a static keyword with it then it is called
+a static variables.
+WHY LEARN ABOUT DIFFERENT TYPES OF VARIABLES?
+1:It helps us reduce the amount of RAM that our application will be using when it
+will be running.
+2: with the help of these variables we can pass information between methods of a class.
+3: they occupy the memory for the shortest period of time.
+HOW TO USE THESE ?
+Local: create inside block of code.
+
+pros vs cons
+
+local variables:
+pros: they occupy the memory for the shortest period of time always try to use local
+variables when possible to save memory.
+cons: They are very limited in scope, means we cant access them outside of method or
+that block of code.
+
+Instance Variables:
+Advantages: they have broader scope as compare to local variables, means we can access in all method of that class.
+Disadvantages: They occupy the space in your RAM for longer periods of time.
+
+Static Variables:
+Advantages: we can call static variables without creating an object of a class.
+we can share a single value between all the objects of a class.
