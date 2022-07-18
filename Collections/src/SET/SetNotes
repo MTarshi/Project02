@@ -1,0 +1,20 @@
+Set:
+Set in Java does not allow duplicate values. There are many types of
+sets but we will only discuss the most widely used ones which are:
+1: HashSet 2: LinkedHasSet  3: TreeSet
+
+HashSet:
+Upside: Most commonly used type of set it is fastest when it comes to
+insert and retrive the data.
+Downside: Insertion order is not maintained.
+No get method to get a single value.
+
+LinkedHashSet:
+Upside: Insertion order is maintained.
+Downside: Insertion speed is comparable to the HashSet but the
+retrieval speed is the slowest.
+
+TreeSet:
+Upside: The data is sorted in the sorted form.
+Downside: Insertion speed is slow. Retrieval speed is better than
+LinkedHashSet but slower than HashSet.

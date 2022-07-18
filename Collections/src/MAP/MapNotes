@@ -1,0 +1,33 @@
+Map:
+-> Map is an interface in Java that allows us to store key value pairs.
+we cant have duplicate keys but we can have duplicate values.
+->Map allows to store key value pairs. First entry is treated as key
+and the second one is treated as value. Keys cant be duplicate but values
+can be.
+Map<Integer, String> items=new HashMap<>();
+->We will be discussing three of them:
+1: HashMap
+2: LinkedHashMap
+3: TreeMap
+
+HashMap:
+Upside: Fastest when it comes to insert and retrive the elements.
+Downside: No insertion order.
+
+LinkedHashMap:
+Upside: Insertion order will be maintained.
+Downside: Retrival will be slowest.
+
+TreeMap:
+Upside: Data will be stored in the sorted form based on key.
+Downside: Insertion is the slowest.
+
+->Choose proper DataStructure?
+q: I want to store unique names in the sorted form?
+A: TreeSet.
+
+Q: I want to store name sof the students and most of the time I will be
+performing operation related to data retrival?
+A: ArrayList.
+
+Q:

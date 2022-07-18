@@ -1,0 +1,15 @@
+Set:
+1: Duplicate are not allowed
+->We will be discussing 3 types of Sets:
+1: HashSet 2: LinkedHashSet  3: TreeSet
+
+HashSet:
+->Upside: It does not maintain Insertion order.
+-> Downside: It is the fastest of all.
+
+LinkedHashSet:
+-> Upsides: Insertion order is maintained.
+-> Downside: Retrival of the element will be super slow.
+-> Insertion speed slower than HashSet.
+
+TreeSet:

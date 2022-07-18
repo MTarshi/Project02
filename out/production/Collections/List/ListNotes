@@ -1,13 +1,20 @@
 List:
-->List is the first interface that we will be discussing from the collections
-framework.
-->We can store duplicate data.
-->Insertion order is maintained.
+->List is an interface inside the collection framework which have below properties:
+1: Insertion order is maintain. Data will be store starting from index 0
+2: I can store duplicate data.
+->List is implemented by many classes but will be focusing on ArrayList
+and LinkedList.
 ArrayList:
-->Upside: Retrival(get operation) of elements is super fast.
-->Downside: Adding elements in the middle or start will be very expensive.
+->When my requirement is that I will be reading the data a lot, then I
+should be going with ArrayList.
 
-LinkedList class:
-Upside: Whenever we have to insert the data randomly not at the last index
-we should be using linkedList.
-->Retrival is super, super slow if the list is big.
+LinkedList:
+->Most of our operations will be writing the data to a list in between
+or in the start or shifting the data we should be going with LinkedList.
+
+Iterator:
+->Is an interface that has three methods hasNext() next() and remove().
+Whenever we try to modify the size of a list using simple loop there are
+chances that it will not work or will through an error because lists are
+dynamic and can change the size at runtime. So to be always on the safe
+side, we should use iterators.
